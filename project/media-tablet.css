@@ -1,0 +1,231 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+    #con1 {
+        height: 100vh;
+        width: 132vw;
+        background-color: #cad5c4;
+        position: relative;
+        
+      }
+      #myphoto {
+        width: 105vw;
+        height: 73vh;
+        position: absolute;
+        top: 27vh;
+        right: 25rem;
+        z-index: 1;
+      }
+      #whitecircle {
+        width: 75vw;
+        height:85vh;
+        position: absolute;
+        border-radius: 500rem;
+        background-color: white;
+        left: 2.5rem;
+        top: 8rem;
+      }
+      #download{
+        position: absolute;
+        top: 26rem;
+        left: 41rem;
+        background-color: #808080;
+        border-radius: 8px;
+        border: none;
+        height: 35px;
+      }
+      h1 {
+        position: absolute;
+        font-size: 4.5rem;
+        left: 30rem;
+        top: 15rem;
+        color: #808080;
+      }
+      #p1 {
+        position: absolute;
+        color: #808080;
+        font-size: 1.5rem;
+        top: 21rem;
+        left: 35rem;
+      }
+      #contwo {
+        height: 100vh;
+        width: 132vw;
+        position: relative;
+        display: inline-block;
+        /* border: #808080 solid; */
+        
+        
+      }
+      h2 {
+        color: #808080;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2.5rem;
+      }
+
+      #map {
+        background-image: url();
+        background-size: cover;
+        height: 75vh;
+        background-size: 65rem;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        /* border: #d6480a solid ; */
+        margin-top: 50px;
+        margin-left: 5px;
+      }
+      .stage {
+        height: 60vh;
+        width: 55vw;
+        border:  solid #803131;
+        border-radius: 50%;
+        /* margin-top: 5rem; */
+        display: unset;
+        margin: 0 0 0 0;
+        transition: none;
+    
+      }
+      .stage_img {
+        width: 24rem;
+        border-radius: 60%;
+        display: unset;
+        margin: 0.5rem 0.4rem;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      .stage:nth-child(1) {
+        border: #D6480A solid;
+        top: 20px;
+        left: 50px;
+        margin:0 auto ;
+        
+      }
+    .stage:nth-child(2) {
+        border: #D6480A solid;
+        left: 32rem;
+        top: 20px;
+      
+        
+        
+      }
+
+        #con_three{
+            width: 132vw;
+            height: 100vh;
+            background-color:white;
+            display: inline-block;
+            /* border: #808080 solid; */
+
+        }
+        #container{
+            border:  solid #d6480a ;
+            width:100vw;
+            height: 60vh;
+            margin-left: 120px;
+            margin-top: 20px;
+            /* z-index: 1; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-right: 50px;
+            background-color:#EFB69D ;
+            
+        }
+        #zborder{
+            border:  solid #d6480a ;
+            width: 100vw;
+            height: 60vh;
+            margin-left: 105px;
+            margin-top: -410px;
+            /* background-color: #EFB69D; */
+            z-index: 1;
+        
+        
+        }
+        h3{
+            color:#d6480a;
+            margin-top: 50px;
+            margin-left: 70px;
+            font-size: 35px;
+          }
+          .list{
+            list-style-type: none;
+            color: white;
+            font-size: 23px;
+            margin-left:15px;
+            margin-top: 20px;
+            text-align: center;
+          }
+          #con_five{
+            height: 130vh;
+            width: 132vw;
+            /* border: #808080 solid; */
+          }
+          #mother{
+            width: 132vw;
+            height: 110vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* border: #9d3030 solid; */
+            justify-content: space-around;
+            align-items: center;
+            
+          
+          }
+          .exp{
+            font-size:35px;
+          }
+          #con_six{
+            height: 100vh;
+            width: 132vw;
+            /* border: #d6480a solid; */
+          }
+
+          .lan{
+            width: 132vw;
+            
+            /* border: red solid; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;  
+          }
+          #con_seven{
+            width: 132vw;
+            height: 100vh;
+            background-color: white;
+            /* border: #d6480a solid; */
+          }
+          #parent{
+            width: 132vw;
+            height: 65vh;
+            /* border: #808080 solid; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            
+          }
+          .coach>p{
+            font-size: 15px;
+            color: #4b4b4b;
+            margin-top: 10px;
+            margin-left: 15px;
+            text-align: center;
+          }
+          .card{
+            width: 38vw;
+            
+            
+          }
+          footer{
+            background-color: black;
+            width: 132vw;
+            height: 25vh;
+            position: relative;
+          }
+          #copyright{
+            margin-left: 58rem;
+            margin-top: 1rem;
+          }
+}
