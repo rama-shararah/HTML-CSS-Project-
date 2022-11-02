@@ -145,14 +145,14 @@
         h3{
             color:#d6480a;
             margin-top: 50px;
-            margin-left: 70px;
+            margin-left: 50px;
             font-size: 35px;
           }
           .list{
             list-style-type: none;
             color: white;
             font-size: 23px;
-            margin-left:15px;
+            margin-left:0px;
             margin-top: 20px;
             text-align: center;
           }
@@ -173,11 +173,17 @@
             
           
           }
+          .button{
+            margin-left:120px;
+            background-color: #808080;
+            border: none;
+            border-radius: 5px;
+          }
           .exp{
             font-size:35px;
           }
           #con_six{
-            height: 100vh;
+            height: 90vh;
             width: 132vw;
             /* border: #d6480a solid; */
           }
@@ -188,24 +194,28 @@
             /* border: red solid; */
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;  
+            justify-content: space-evenly; 
+            margin-left: 0%; 
           }
           #con_seven{
             width: 132vw;
-            height: 100vh;
+            height: 200vh;
             background-color: white;
             /* border: #d6480a solid; */
           }
           #parent{
-            width: 132vw;
-            height: 65vh;
+            width: 100vw;
+            height: 150vh;
             /* border: #808080 solid; */
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 130px;
             
             
           }
+   
           .coach>p{
             font-size: 15px;
             color: #4b4b4b;
@@ -214,18 +224,46 @@
             text-align: center;
           }
           .card{
-            width: 38vw;
+            width: 50vw;
             
             
           }
           footer{
             background-color: black;
             width: 132vw;
-            height: 25vh;
+            height: 35vh;
             position: relative;
+           
+          }
+          #contact{
+            /* border: solid white; */
+            width:100vw;
+            color: white;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
           }
           #copyright{
-            margin-left: 58rem;
-            margin-top: 1rem;
+            position: absolute;
+            left:50rem;
+            top: 12rem;
+            
+          }
+          #icons{
+            width: 150px;
+            height: 30px;
+            /* border: solid white; */
+            display: inline;
+            position: absolute;
+            bottom: 40px;
+            left: 28rem;
+          
+          }
+          #mylogo{
+            position: absolute;
+            left:50.5rem ;
+            bottom: 2rem;
           }
 }

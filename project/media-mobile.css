@@ -5,7 +5,7 @@
     }
     #con1 {
         height: 60vh;
-        width: 100vw;
+        width: 100%;
         background-color: #cad5c4;
         position: relative;
       }
@@ -64,7 +64,7 @@
   }
   #contwo {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     display: inline-block;
     
@@ -87,7 +87,7 @@
   #map {
     background-image: url();
     height: 75vh;
-    width: 100vw;
+    width: 100%;
     background-size: 25rem;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -99,8 +99,8 @@
     
   }
   .stage {
-    height: 30vh;
-    width: 70vw;
+    height:45%;
+    width: 70%;
     border:  solid #803131;
     border-radius: 50%;
     /* margin-top: 5rem; */
@@ -110,10 +110,10 @@
 
   }
   .stage_img {
-    width: 13rem;
+    width: 90%;
     border-radius: 40%;
     display: unset;
-    margin: 0.5rem 0.4rem;
+    margin: 0.7rem 0.5rem;
     border-radius:50%;
   }
   .stage:nth-child(1) {
@@ -126,7 +126,7 @@
 .stage:nth-child(2) {
     border: #D6480A solid;
     left: 50px;
-    top: 15rem;
+    top: 18rem;
   
     
     
@@ -165,12 +165,12 @@ h3{
     text-align: center;
   }
   .list{
-    list-style-type: none;
+    
     color: white;
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 4rem;
     margin-top: 15px;
-    text-align: center;
+    text-align: start;
     
   }
   #con_five{
@@ -187,37 +187,46 @@ h3{
     
   
   }
+  .button{
+    margin-left:125px;
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+    
+  }
   .exp{
     font-size: 20px;
     text-align: center;
   }
 #analysis{
-  margin-right:7.5rem;
+  margin-right:8rem;
 }
 #analysis2{
   margin-right:7.5rem;
 }
 #analysis3{
-  margin-right:7.5rem;
+  margin-right:8rem;
 }
 #code{
-  margin-right:6rem;
+  margin-right:6.5rem;
 }
 #con_six{
-  height: 100vh;
+  height: 120vh;
   /* border: #d6480a solid; */
   
 
 }
 .lan{
-  width: 100vw;
-  height: 70vh;
+  width: 100%;
+  height: 100vh;
   /* border: red solid; */
   display: flex;
   flex-direction: column;
-  align-content: space-between;  
+  align-content: space-between; 
+  justify-content: center; 
   padding-bottom: 50px;
   margin-top: -50px;
+  margin-left: 0px;
   
 }
 .AandE{
@@ -225,10 +234,28 @@ h3{
   width: 250px;
   border-radius: 5px;
   box-shadow: 0px 7px 7px rgba(46, 45, 45, 0.219);
-  margin-left: 35px;
+  margin-left: 15%;
   margin-top: 50px;
  
 
+}
+.AE{
+  text-align: center; 
+  font-size:20px;
+}
+
+label{
+  font-size: 15px;
+  margin-left:50px;
+  color: rgb(78, 75, 75);
+  
+}
+progress{
+  accent-color: #d6480a;
+  width: 5.7rem;
+  height: 1.4rem;
+  margin-top: 20px;
+  
 }
 
 
@@ -241,16 +268,18 @@ h3{
 
   #con_seven{
     width: 100vw;
-    height: 170vh;
+    height: 300vh;
     background-color: white;
   }
   #parent{
     width: 100vw;
+    height: 280vh;
     /* border: #808080 solid; */
     display: flex;
     flex-direction: column;
     align-content: space-between;
     align-items: center;
+    margin-left: 0px;
     
     
   }
@@ -261,9 +290,15 @@ h3{
     margin-left: 15px;
     text-align: center;
   }
+  .info{
+    text-decoration: none;
+    color: black;
+    margin-left: 0rem;
+    font-size: 10px;
+  }
   .card{
     width: 60vw;
-    height: 45vh;
+    height: 60vh;
     margin-top: 20px;
     
     
@@ -276,7 +311,7 @@ h4{
 footer{
   background-color: black;
   width: 100vw;
-  height: 26vh;
+  height: 30vh;
   position: relative;
 
   
@@ -299,13 +334,14 @@ footer>p{
   font-size: 10px;
 }
 #icons{
-  width: 150px;
-  height: 30px;
+  width: 50px;
+  height: 24vh;
   /* border: solid white; */
-  display: inline;
+  display:flex;
+  flex-direction: column;
   position: absolute;
-  bottom: 20px;
-  left: 4.2rem;}
+  bottom: 10px;
+  left: 15rem;}
 
   
   #copyright{
